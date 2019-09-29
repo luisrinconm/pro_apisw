@@ -1,0 +1,46 @@
+body{
+    background-image: url("../assets/gifs-animados-star-wars-4833872.gif");    
+    background-size: cover;
+    
+}
+a{
+    color: yellow;
+}
+.contenedor {
+    text-align: center;
+    height: 80px;
+    background-color: black;
+}
+
+.centrar {
+    text-align: center;
+    display: inline-block;
+}
+
+.izquierda {
+    float: left;
+    width: 45px;
+}
+
+.parrafo {
+    margin: 15px;
+    color: yellow;
+    font-size: 2.05em;
+}
+.nav-pills .nav-link.active, 
+.nav-pills .show>.nav-link{
+    background-color: red !important;
+}
+
+.container{
+    width: 600px!important;
+    height: 450px!important;
+    background-color: black;
+    
+}
+.portada{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
