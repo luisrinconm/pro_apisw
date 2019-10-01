@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/stylewapi.css">
+
+    <title>Proyecto API Start Wars</title>
+</head>
+
+<body>
+    <!--Encabezado con logo y Titulo-->
+    <div class="contenedor">
+        <div class="izquierda">
+            <small>
+                <img src="assets/logo.png" width="90" height="80" alt="logo" />
+            </small>
+        </div>
+        <div class="centrar">
+            <p class="parrafo"><b>PLANETAS</b></p>
+        </div>
+    </div>
+    <!--Fin Encabezado-->
+    <!--Navbar-->
+    <nav class="nav nav-pills nav-fill red">
+        <a class="nav-item nav-link active" href="#">Peliculas</a>
+        <a class="nav-item nav-link" href="#">Personas</a>
+        <a class="nav-item nav-link" href="planetas.html">Planetas</a> <!--enlace página de planetas-->
+        <a class="nav-item nav-link " href="#">Especies</a>
+        <a class="nav-item nav-link " href="#">Naves Espaciales</a>
+        <a class="nav-item nav-link " href="#">Vehiculos</a>
+    </nav>
+    
+<!--FICHAS DE PLANETAS Y DESCRIPCION-->
+<div class="container-planet">
+ <table style="margin:20px;">
+   <tr>
+      <th>Planeta</th>
+      <th>Descripción</th>
+      <th>Lugar</th>
+   </tr>
+   
+   <tr>
+      <td >Tatooine</td>
+
+      <td>Un planeta desértico iluminado por dos estrellas y con un duro clima. Poblado escasamente, la mayoría de sus
+    habitantes trabajan en granjas de humedad, donde emplean vaporizadores con el fin de obtener agua para su propio
+    consumo y venta. Está bajo el control de los hutts y es un lugar de tránsito para piratas, cazarrecompensas y traficantes.
+    Entre sus pobladores autóctonos se encuentran los jawas, unos pequeños vendedores de chatarra que se cubren por 
+    completo con una túnica, y los incursores tusken o moradores de las arenas, una agresiva raza muy territorial y xenófoba 
+    que rechaza la convivencia con cualquier otra en el planeta. Lugar de nacimiento de Anakin Skywalker.</td>
+
+      <td><img src="assets/tatooine.png"></td>
+  </tr>
+
+  <tr>
+    <td>Naboo</td>
+
+    <td>Con capital en Theed, es un pacífico planeta colonizado por los humanos y colmado de verdes praderas y colinas.
+    Sus habitantes nativos son conocidos como gungan, tienen forma de anfibio y su mayor ciudad, Otoh Gunga, se encuentra 
+    sumergida bajo el lago Paonga. Lugar de nacimiento y gobierno de Amidala Padmé, esposa de Anakin Skywalker.</td>
+
+    <td><img src="assets/naboo.jpg" class="img-table"></td>
+  </tr>
+
+  <tr>
+    <td>Hoth</td>
+
+    <td>Un inhóspito planeta helado cuya temperatura se mantiene durante todo el día bajo cero grados. Entre su fauna 
+    autóctona se encuentran el depredador wampa y el tauntaun.</td>
+
+    <td><img src="assets/hoth.png" class="img-table"</td>
+  </tr>
+
+  </table>   
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
