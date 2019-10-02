@@ -1,0 +1,45 @@
+body {
+    margin: 0 auto;
+}
+
+.centrar {
+    text-align: center
+}
+
+.swapi {
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+
+#logo {
+    display: inline-block;
+}
+
+input {
+    margin-bottom: 10px
+}
+
+.img-demo {
+    width: 80%;
+    height: 250px;
+    background: #eee;
+    margin: 0 auto;
+}
+
+section,
+footer {
+    margin-top: 100px
+}
+
+footer {
+    border: solid 2px #eee;
+    padding: 20px 0
+}
+
+textarea {
+    height: 190px
+}
+
+.space {
+    margin-top: 20px
+}
