@@ -78,7 +78,7 @@ function allFilms(data) {
             </a>`
         })
         characters.forEach(function (person) {            
-            listCharacters += `<a href="#modal1" class="modal-trigger">
+            listCharacters += `<a href="${person}">
             <li class="character-list" data-character="${person}">${person}</li>
       </a>`
         })
