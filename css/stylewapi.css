@@ -38,8 +38,9 @@ a:hover{
 }
 
 .container{
+    margin-top:15px;/*APorte*/
     width: 600px!important;
-    height: 450px!important;
+    height: 650px!important;
     background-color: black;
     
 }
@@ -61,3 +62,19 @@ a:hover{
 .img-table{
     width: 350px;
 }
+th{
+    background-color: red;
+    color:white;
+}
+td{
+    background-color:#e3f2fd !important;
+    font-weight: 800;
+    opacity: 0.8!important;
+}
+#films{
+     overflow: auto;
+     height:400px!important;
+     width:1500px!important;
+     padding:0px;
+}
+
