@@ -1,4 +1,4 @@
-
+$('#modal1').modal();
 //Direcciona a donde esta el JSON con la información de las peliculas
 fetch(`https://swapi.co/api/films/`).then(function (data) {
     data.json().then(allFilms)
@@ -73,12 +73,12 @@ function allFilms(data) {
             </a>`
         })
         planetas.forEach(function(p){
-            listplanets += `<a href="${p}">
+            listplanets += `<a href="#modal2" class="modal-trigger">
             <li class="planets-list" data-character="${p}">${p}</li>
             </a>`
         })
         characters.forEach(function (person) {            
-            listCharacters += `<a href="${person}">
+            listCharacters += `<a href="#modal1" class="modal-trigger" >
             <li class="character-list" data-character="${person}">${person}</li>
       </a>`
         })
@@ -131,27 +131,4 @@ function MostrarModal1(item) {
     $("#skin-color").html("Skin color: " + item.skin_color);    
     console.log(document.getElementById("modal1"))
 }
-/*function getNombrePersonaje(item) {
-    let url = `${item}`;
-    per = '';
-    const api = new XMLHttpRequest();
-    api.open('GET', url, true);
-    api.send();
-    api.onreadystatechange = function () {
-        if (this.status == 200 && this.readyState == 4) {
-            let datos = JSON.parse(this.responseText);
-            let i = 0;
-            //for (let j of datos.name){
-            //    i++;
-            per = datos.name;
 
-            //}
-            //console.log(item);
-            //console.log(datos.name);
-            //console.log(per);
-
-        }
-
-    }
-    return per;
-}*/
